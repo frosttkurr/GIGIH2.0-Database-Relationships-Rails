@@ -1,0 +1,127 @@
+Chef.create(name: "Syakur")
+Chef.first.chef_license
+ChefLicense.create(earn_date: NOW, chef_id: 1)
+ChefLicense.create(earn_date: Date.current, chef_id: 1)
+Chef.first.chef_license
+exit
+Customer.create(name: "Syakur")
+Customer.create(name: "Rahma")
+OrderTable.create(order_date: \
+  eci;\
+  exit\
+  "")
+OrderTable.create(order_date: "02/02/2022", customer_id: 1)
+Order.create(order_date: "02/02/2022", customer_id: 1)
+Order.create(order_date: "02/02/2022", customer_id: 2)
+Order.create(order_date: "02/02/2022", customer_id: 1)
+Order.create(order_date: "02/02/2022", customer_id: 2)
+ChefLicense.all
+Order.all
+Order.create(order_date: "03/02/2022", customer_id: 1)
+Order.create(order_date: "03/02/2022", customer_id: 2)
+@customer = Customer.find(1)
+Customer.all
+@customer.orders.order_date
+@customer.order.order_date
+@customer = customer.find(1)
+@customer=Customer.find(1)
+@customer.order.order_date
+@customer.orders.order_date
+@customer
+@customer.orders.order_date
+@customer.order.order_date
+Order.all
+@customer
+@customer.order
+@customer.orders
+@customer.order
+@customer.order.order_date
+@customer1 = Customer.find(1)
+@customer2 = Customer.find(2)
+@customer1.order
+@customer2.order
+@customer1.order[:order_date]
+@customer1.order.order_date
+@customer1.order.select[:order_date]
+rails console
+@customer1
+@customer1.order.order_date
+exit
+Order.all
+@customer.order.order_date
+@customer
+@customer = Customer.find_by(1)
+@customer = Customer.find_by(1)
+Customer.all
+@customer = Customer.find(1)
+@customer.order
+@customer.order.order_date
+Order.order_date
+exit
+@customer = Customer.find(1)
+@customer.order
+@customer.order.order_date
+@customer.order.select[:order_date]
+@customer.order.select(:order_date)
+Order.all
+@customer.orders.map(&:order_date)
+@customer.order.map(&:order_date)
+@customer
+@customer.order.map(:order_date)
+exit
+@customer = Customer.find(1)
+@customer.order
+@customer.order.order_date
+@customer.order.order_date
+@customer.order.id
+@customer.order.select(:order_date)
+@customer.order
+@customer.order.map(&:order_date)
+@customer.orders
+@customer.order
+@customer.order.map(&:order_date)
+@customer.orders.map(&:order_date)
+@customer.order.map(:order_date)
+@customer.orders
+exit
+@customer.orders
+@customer = Customer.find(1)
+@customer.orders
+@customer.orders.map(&:order_date)
+exit
+@customer.order
+@customer = Customer.find(1)
+@customer.order.map(&:order_date)
+rails console
+Chef.all
+ChefLicense.all
+Customer.all
+Order.all
+@customer = Customer.find(1)
+@customer.order.\
+order
+@customer.order
+@customer.order.map(&:order_date)
+Chef.all
+ChefLicense.all
+Order.all
+Customer.all
+@customer = Customer.find(1)
+@customer.orders.order_date
+@customer.orders.map(&:order_date)
+@customer
+@customer.orders
+exit
+Chef.all
+ChefLicense.all
+Customer.all
+Order.all
+@customer = Customer.find(1)
+@customer.orders
+@customer.orders.order_date
+exit
+@customer = Customer.find(1)
+@customer.orders.order_date
+@cutomer.orders.map(&:order_date)
+@customer.orders.map(&:order_date)
+exit
